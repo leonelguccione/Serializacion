@@ -6,34 +6,28 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class DVD implements Serializable
-{
-	//Comentario nuevo
-    private List movies = new ArrayList();
+public class DVD implements Serializable {
+	// Comentario nuevo
+	private List movies = new ArrayList();
 
-    public DVD()
-    {
-    }
+	public DVD() {
+	}
 
-    public List getMovies()
-    {
-        return movies;
-    }
+	public List getMovies() {
+		return movies;
+	}
 
-    public void setMovies(List movies)
-    {
-        this.movies = movies;
-    }
+	public void setMovies(List movies) {
+		this.movies = movies;
+	}
 
-    public String toString()
-    {
-        String stMovies = "";
-        Iterator iter = getMovies().iterator();
-        while(iter.hasNext())
-        {
-            Movie unaMovie = (Movie)iter.next();
-            stMovies = stMovies + unaMovie.toString();
-        }
-        return stMovies;
-    }
+	public String toString() {
+		String stMovies = "";
+		Iterator iter = getMovies().iterator();
+		while (iter.hasNext()) {
+			Movie unaMovie = (Movie) iter.next();
+			stMovies = stMovies + unaMovie.toString();
+		}
+		return stMovies;
+	}
 }
