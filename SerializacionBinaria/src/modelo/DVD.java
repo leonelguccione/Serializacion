@@ -13,6 +13,10 @@ public class DVD implements Serializable
     public DVD()
     {
     }
+    
+    public DVD(List movies) {
+    	this.movies = movies;
+    }
 
     public List getMovies()
     {
