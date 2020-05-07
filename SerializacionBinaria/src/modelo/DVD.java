@@ -31,7 +31,7 @@ public class DVD implements Serializable
         while(iter.hasNext())
         {
             Movie unaMovie = (Movie)iter.next();
-            stMovies = stMovies + unaMovie.toString();
+            stMovies = stMovies + unaMovie.toString() + "\n";
         }
         return stMovies;
     }
