@@ -8,6 +8,7 @@ import java.util.List;
 
 public class DVD implements Serializable
 {
+	//Comentario nuevo
     private List movies = new ArrayList();
 
     public DVD()
