@@ -78,6 +78,25 @@
      </void>
     </object>
    </void>
+   <void method="add">
+    <object class="modelo.Movie">
+     <void property="cast">
+      <string>Matt Damon, Tommy Lee Jones, Alicia Vikander</string>
+     </void>
+     <void property="directors">
+      <string>Paul Greengrass</string>
+     </void>
+     <void property="name">
+      <string>Jason Bourne</string>
+     </void>
+     <void property="released">
+      <int>2016</int>
+     </void>
+     <void property="runtime">
+      <int>123</int>
+     </void>
+    </object>
+   </void>
   </void>
  </object>
 </java>
