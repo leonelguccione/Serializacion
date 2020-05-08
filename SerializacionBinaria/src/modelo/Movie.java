@@ -85,9 +85,11 @@ public class Movie implements Serializable
         private String cast; */
         
         // TODO Implement this method
-        String pelicula = "name:" + getName() + " runtime:"+getRuntime()+" directors:"+getDirectors()+ " released:"+getReleased()+" cast:"+getCast()+"\n";
-        
-        return pelicula;
+        return "name:" + getName() + " runtime:"+getRuntime()+" directors:"+getDirectors()+ " released:"+getReleased()+" cast:"+getCast()+"\n";
     }
+    //modificación para Actividad 2 Izurieta Luciano
+    //**antes**
+    // String pelicula = "name:" + getName() + " runtime:"+getRuntime()+" directors:"+getDirectors()+ " released:"+getReleased()+" cast:"+getCast()+"\n";
+    // return pelicula;
 
 }
