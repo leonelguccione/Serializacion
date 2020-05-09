@@ -6,6 +6,11 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+/**
+ * @author User
+ *<br>
+ *Clase que sirve para almacenar un conjunto de peliculas. Es serializable.
+ */
 public class DVD implements Serializable
 {
     private List movies = new ArrayList();
