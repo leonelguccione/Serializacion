@@ -3,6 +3,11 @@ package modelo;
 import java.io.Serializable;
 
 
+/**
+ * @author User
+ *<br>
+ *Clase que representa una pelicula. Posee informacion del nombre, la duracion, los directores, la fecha de salida y el casting.
+ */
 public class Movie implements Serializable
 {
     private String name;
