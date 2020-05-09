@@ -8,7 +8,7 @@ import java.util.List;
 
 public class DVD implements Serializable
 {
-    private List movies = new ArrayList();
+    private List peliculas = new ArrayList();
 
     public DVD()
     {
@@ -16,12 +16,12 @@ public class DVD implements Serializable
 
     public List getMovies()
     {
-        return movies;
+        return peliculas;
     }
 
     public void setMovies(List movies)
     {
-        this.movies = movies;
+        this.peliculas = movies;
     }
 
     public String toString()
