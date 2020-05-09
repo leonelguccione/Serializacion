@@ -85,7 +85,7 @@ public class Movie implements Serializable
         private String cast; */
         
         // TODO Implement this method
-        String pelicula = "name:" + getName() + " runtime:"+getRuntime()+" directors:"+getDirectors()+ " released:"+getReleased()+" cast:"+getCast()+"\n";
+        String pelicula = "nombre:" + getName() + " runtime:"+getRuntime()+" directores:"+getDirectors()+ " lanzamiento:"+getReleased()+" cast:"+getCast()+"\n";
         
         return pelicula;
     }
