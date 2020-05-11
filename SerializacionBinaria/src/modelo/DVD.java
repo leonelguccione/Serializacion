@@ -10,10 +10,6 @@ public class DVD implements Serializable
 {
     private List movies = new ArrayList();
 
-    public DVD()
-    {
-    }
-
     public List getMovies()
     {
         return movies;
