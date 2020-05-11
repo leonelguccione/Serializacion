@@ -72,4 +72,12 @@ public class Movie
         this.cast = cast;
     }
 
+	@Override
+	public String toString() {
+		return "Movie [name=" + name + ", runtime=" + runtime + ", directors=" + directors + ", released=" + released
+				+ ", cast=" + cast + "]";
+	}
+    
+    
+
 }
