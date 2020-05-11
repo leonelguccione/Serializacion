@@ -24,6 +24,7 @@ public class DVD implements Serializable
         this.movies = movies;
     }
 
+    //to string
     public String toString()
     {
         String stMovies = "";
