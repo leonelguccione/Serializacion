@@ -17,7 +17,7 @@ public class DeserializeFromXML
         XMLDecoder decoder = null;
         try
         {
-            decoder = new XMLDecoder(new BufferedInputStream(new FileInputStream(SERIALIZED_FILE_NAME)));
+            decoder = new XMLDecoder(new BufferedInputStream(new FileInputStream(SERIALIZED_FILE_NAME)));//comentario
         }
         catch (FileNotFoundException e)
         {
