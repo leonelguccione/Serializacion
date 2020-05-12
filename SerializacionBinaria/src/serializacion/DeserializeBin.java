@@ -1,3 +1,5 @@
+//Ignacio Casamayou escribió este comentario
+
 package serializacion;
 
 import java.io.FileInputStream;
