@@ -16,7 +16,7 @@ public class DVD
     {
         return movies;
     }
-
+	//escribo un comentario xD
     public void setMovies(List movies)
     {
         this.movies = movies;
